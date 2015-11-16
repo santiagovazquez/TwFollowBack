@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  width: 200px;
+  padding: 20px;
+}
+
+.amount-left-legend {
+	margin-bottom: 10px;
+}
+
+#unfollow-amount, #follow-amount {
+	font-weight: 700;
+}
+
+button {
+	height: 26px;
+    width: 100%;
+}
+
+.hide {
+	display: none;
+}

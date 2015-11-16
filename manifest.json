@@ -1,0 +1,25 @@
+{
+  "name": "TwFollowBack",
+  "version": "0.6.1",
+  "description": "Plugin for using follow back twitter strategy.",
+  "icons": { 
+    "48": "add_user_48.png",
+    "128": "add_user_128.png" 
+  },
+  "background": { "scripts": ["jquery-2.1.4.min.js", "lodash.min.js", "background.js"] },
+  "content_scripts": [
+    { "matches": ["https://twitter.com/*"], "js": ["jquery-2.1.4.min.js", "lodash.min.js", "content_script.js"] }
+  ],
+  "permissions": [
+    "tabs",
+    "https://twitter.com/*",
+     "declarativeContent",
+     "storage"
+  ],
+  "page_action": {
+      "default_name": "TwFollowBack",
+      "default_icon": "add_user_19.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
