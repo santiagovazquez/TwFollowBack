@@ -5,23 +5,13 @@
     <link href="popup.css" rel="stylesheet" type="text/css">
   </head>
   <body class="main-container">
-    <div class="follow-container hide">
-      <div class="hide amount-left-legend">
-        You have <span id="follow-amount">0</span> left to follow today.
-      </div>
-
-      <button id="following-btn" class="disabled" type="button">Start Follow</button>
-    </div>
-    <div class="unfollow-container hide">
-      <div class="hide amount-left-legend">
-        You have <span id="unfollow-amount">0</span> left to unfollow.
-      </div>
-
-      <button id="unfollowing-btn" class="disabled" type="button">Start Unfollow</button>
+    <div id="action-container" class="action-container">
+      <button id="action-btn" class="disabled" type="button"></button>
     </div>
 
-    <script src="jquery-2.1.4.min.js"></script>
-    <script src="lodash.min.js"></script>
+    <script src="vendor/jquery-2.1.4.min.js"></script>
+    <script src="vendor/lodash.min.js"></script>
+    <script src="vendor/backbone-min.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>

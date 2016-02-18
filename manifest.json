@@ -6,9 +6,9 @@
     "48": "add_user_48.png",
     "128": "add_user_128.png" 
   },
-  "background": { "scripts": ["jquery-2.1.4.min.js", "lodash.min.js", "background.js"] },
+  "background": { "scripts": ["vendor/jquery-2.1.4.min.js", "vendor/lodash.min.js", "vendor/backbone-min.js", "background.js"] },
   "content_scripts": [
-    { "matches": ["https://twitter.com/*"], "js": ["jquery-2.1.4.min.js", "lodash.min.js", "content_script.js"] }
+    { "matches": ["https://twitter.com/*"], "js": ["vendor/jquery-2.1.4.min.js", "vendor/lodash.min.js", "vendor/backbone-min.js", "content_script.js"] }
   ],
   "permissions": [
     "tabs",
