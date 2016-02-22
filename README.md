@@ -14,12 +14,11 @@
 
 1. Entrar a una cuenta de twitter cuyos followers nos interesen.
 2. Entrar a sus followers.
-3. Veremos que aparece en la barra de navegación (a la derecha de la URL) el siguiente ícono:
-
+3. Veremos que aparece en la barra de navegación (a la derecha de la URL) el ícono del plugin.
 4. Cliquear en "Start following". El plugin automáticamente seguirá perfiles cada 500ms y se detendrá automáticamente cuando se haya llegado a un límite (la cuenta no tiene más followers o bien twitter nos prohíbe seguir más gente durante esas 24hs).
 
 #### Unfollowing Masivo
 
 1. Entrar a tus followers desde https://twitter.com/followers
-2. Cliquear en "Start Unfollowing". El plugin automáticamente dará "unfollow" a cada cuenta que no te esté siguiendo.
+2. Cliquear nuevamente en el ícono del plugin y luego en "Start Unfollowing". El plugin automáticamente dará "unfollow" a cada cuenta que no te esté siguiendo.
 
