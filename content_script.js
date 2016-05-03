@@ -118,7 +118,7 @@ var ContentScriptModel = Backbone.Model.extend({
   },
 
   reachFollowLimit: function() {
-    return _($('.alert-messages').text()).contains('You are unable to follow more people');
+    return _($('.alert-messages').text()).contains('You are unable to follow more people') || _($('.alert-messages').text()).contains('No puedes seguir a más personas en este momento');
   }
 });
 
